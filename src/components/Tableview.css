@@ -1,0 +1,94 @@
+
+.tableContainer{
+    /* border:1px solid gray ; */
+    background-color: white;
+    width:100%;
+    /* overflow: scroll; */
+    overflow: auto;
+    padding-top: 24px;
+}
+
+.settingsContainer{
+    padding:10px 0px 10px 0px;
+    text-align: right;
+    margin: 2px 0px;
+    
+} 
+
+.settingItems{
+    margin:0px 16px 0px 16px;
+    padding:6px 10px;
+    border:1px solid gray ;
+    border-radius: 4px;
+    background-color: white;
+
+}
+.settingItems:hover {
+    background-color: #100dab;
+    color: white;
+    cursor: pointer;
+    
+  }
+
+.settingsIndex{
+    margin:0px 16px 0px 16px;
+    position:absolute;
+    left:2%;
+    font-size: large;
+}
+
+.mainTable{
+    border-collapse: collapse;
+    margin: auto;
+    td, th {
+        border: 1px solid #ccc;
+        text-align: center;
+        padding:0px 6px;
+        
+    }
+    
+    th{
+        background-color: lightblue;
+    }
+    tr:nth-child(even) {
+        background-color:rgb(240, 245, 245);
+    }
+
+}
+
+.grid-container{ 
+    margin: auto;
+    width:70%;
+    background-color: white;
+    position:absolute;
+    top:20%;
+    left:15%;
+    box-shadow:10px 10px 5px gray;
+    
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+   
+    z-index: 1;
+}
+.grid-containernone{ 
+    margin: auto;
+    width:70%;
+    background-color: white;
+   
+    display:none;
+    grid-template-columns: auto auto auto auto;
+   
+    z-index: 1;
+}
+
+.SubmitButton{
+    
+    margin: 20px;
+    width:120px;
+    padding: 5px 5px;
+    color: white;
+    border-radius: 3px;
+    background-color: rgb(32, 32, 195);
+    grid-column: 4 / span 1;
+    
+}

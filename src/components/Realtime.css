@@ -1,0 +1,44 @@
+.container {
+    /* overflow: auto; Clear the float */
+    display: flex; 
+   
+}
+
+.box {
+  
+  width:15%;
+  height: 60px;   
+  
+  margin: 6px 10px 6px 10px;
+  border:1px solid gray; 
+  background-color: white;
+  position: relative;
+
+    
+}
+
+.indexName{
+  position:inherit;
+  top:2px;
+  left:2%
+}
+
+.pChange{
+  position: absolute;
+  top:2px;
+  right:2%
+}
+
+.Change{
+  position: absolute;
+  bottom: 2px;
+  right:2%
+  
+}
+
+.LTP{
+  position: absolute;
+  bottom: 2px;
+  left:2%
+
+}
